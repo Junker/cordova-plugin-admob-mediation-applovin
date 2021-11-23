@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-admob-mediation-applovin"
+    version="0.1.0">
+
+    <name>cordova-plugin-admob-mediation-applovin</name>
+    <description>Cordova AdMob Mediation Plugin for AppLovin</description>
+    <keywords>admob,mediation,applovin</keywords>
+    <license>MIT</license>
+
+    <platform name="android">
+        <framework src="com.google.ads.mediation:applovin:10.+" />
+    </platform>
+
+    <platform name="ios">
+        <podspec>
+          <config>
+            <source url="https://cdn.cocoapods.org/"/>
+          </config>
+          <pods use-frameworks="true">
+            <pod name="GoogleMobileAdsMediationAppLovin" spec="~> 10.3"/>
+          </pods>
+        </podspec>
+    </platform>
+</plugin>

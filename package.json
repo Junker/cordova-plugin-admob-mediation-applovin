@@ -1,0 +1,33 @@
+{
+    "name": "cordova-plugin-admob-mediation-applovin",
+    "version": "0.1.0",
+    "description": "Cordova AdMob Mediation Plugin for AppLovin",
+    "cordova": {
+        "id": "cordova-plugin-admob-mediation-applovin",
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Junker/cordova-plugin-admob-mediation-applovin.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios",
+        "cordova",
+        "plugin",
+        "ad",
+        "admob",
+        "applovin",
+        "mediation"
+    ],
+    "author": "Junker",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Junker/cordova-plugin-admob-mediation-applovin/issues"
+    },
+    "homepage": "https://github.com/Junker/cordova-plugin-admob-mediation-applovin"
+}
