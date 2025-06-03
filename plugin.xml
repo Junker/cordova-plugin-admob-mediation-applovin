@@ -11,7 +11,7 @@
     <license>MIT</license>
 
     <platform name="android">
-        <framework src="com.google.ads.mediation:applovin:11.7.+" />
+        <framework src="com.google.ads.mediation:applovin:13.0.+" />
     </platform>
 
     <platform name="ios">
@@ -20,7 +20,7 @@
             <source url="https://cdn.cocoapods.org/"/>
           </config>
           <pods use-frameworks="true">
-            <pod name="GoogleMobileAdsMediationAppLovin" spec="~> 11.7"/>
+            <pod name="GoogleMobileAdsMediationAppLovin" spec="~> 13.0"/>
           </pods>
         </podspec>
     </platform>
